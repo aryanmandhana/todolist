@@ -1,0 +1,29 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    background-color: #FBF0B2;
+    font-family: Delicious Handrawn,cursive;
+    letter-spacing: 1px;
+}
+
+.container
+{
+margin: 1rem;
+border: 2px solid transparent;
+border-radius: 20px;
+min-height: 500px;
+min-width: 350px;
+padding: 0.5rem;
+box-shadow: 2px 3px 4px black;
+background: white;
+background-size: 20px 40px;
+background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 1px, #e5e5f7 1px, #e5e5f7);
+background-repeat: repeat;
+}
+
+.container h1
+{
+    text-align:center;
+    text-decoration: underline;
+}
